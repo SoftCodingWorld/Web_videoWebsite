@@ -1,0 +1,264 @@
+/*css of all pages. -Jingfei*/
+
+/*responsive screen setting*/
+@media screen {
+    .main { width:100%; }
+    footer { width:100%; border:none; }
+    img { max-width:100%; }
+}
+
+/*css of main page and the login page*/
+#mainbody {
+    margin: 2% 5%;
+}
+body {
+	font-size:12px;
+    color:#ccc;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	background:url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction:column;
+}
+
+#heading3 {
+    font-size: 18px;
+}
+
+#intro {
+    font-size: 16px;
+}
+
+#title {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+ #titlelink {
+    color: #ccc;
+    text-decoration: none;
+ }
+
+ #heading2, #heading3, #heading4, #heading5 {
+    padding-top: 5px;
+ }
+
+ #navigation {
+	display:block;
+	border-top:1px dashed #666;
+	border-bottom:1px dashed #666;
+}
+
+#navigation ul li {
+	display:inline;
+	padding-right:100px;
+    display: inline-block;
+}
+#navigation ul li a {
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	line-height:20px;
+	text-decoration:none;
+}
+#navigation ul li a:hover {
+	text-decoration:none;
+    color: rgb(236, 216, 30)
+}
+
+.movie-image {
+    margin: 1% 1%;
+	float:left;
+	position:relative;
+}
+.movie-image .title {
+    padding: 10%;
+}
+.movie-image img {
+	width:152px;
+	height:214px;
+}
+.movie-image a {
+	float:left;
+	display:inline;
+	width:152px;
+	height:214px;
+	position:relative;
+	z-index:2;
+}
+
+.movie .movie-image .title {
+    color: #fff;
+    font-size: 9pt;
+    text-align: center;
+    display:block;
+}
+
+#content {
+  display: grid;
+}
+
+footer {
+    min-height: 50px;
+    margin-top: auto;
+}
+
+#footer{
+    margin-left: auto;
+    margin-top: auto;
+}
+
+div.formcontainer {
+    display: block;
+    text-align: center;
+}
+#form, #loginform {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+}
+
+#loginheader {
+    color: #ccc;
+}
+
+#email, #login, #pass, #pass2, #username, #password2, #editemail, #editpassword, #editpassword2 {
+    width: 500pt;
+    height: 20pt;
+}
+
+#submit{
+    background-color: #008cba;
+}
+
+#reset {
+    background-color: rgb(232, 64, 64);
+}
+
+#loginbutton {
+    background-color: #008cba;;
+}
+
+#loginreset {
+    background-color: rgb(232, 64, 64);
+}
+
+#searchbutton {
+    background-color: #008cba;
+}
+
+#searchfor {
+    background-color: #008cba;
+}
+
+button {
+    padding: 8pt;
+    color: aliceblue;
+    border-radius: 5pt;
+    border: none;
+    margin: 5pt;
+}
+/*css of search.html*/
+form.mysearch input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+  form.mysearch button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+  }
+
+  form.mysearch button:hover {
+    background: #0b7dda;
+  }
+
+  form.mysearch::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  form.mysearch input[type=text] {
+    margin: 20px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+  form.mysearch button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  form.mysearch button:hover {
+    background: #0b7dda;
+  }
+
+  form.mysearch::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #filter {
+    margin: 10pt;
+  }
+
+  /*css of edituser.html*/
+  #usertable, .table_e {
+    border: 1px solid #ccc;
+  }
+
+  #usertable {
+    text-align: center;
+    margin:auto;
+    margin-top: 50pt;
+  }
+  .table_e {
+    padding: 10px;
+    font-size: medium;
+  }
+
+  .table_e a{
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .table_e a:hover{
+    color: rgb(236,216,30);
+  }
+
+  /*buttons for confirm delete user*/
+  .confir {
+    text-decoration: none;
+    color:#ccc;
+    background-color: #0b7dda;
+    padding: 5pt;
+    margin: 1%;
+  }
