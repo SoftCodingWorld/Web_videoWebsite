@@ -28,10 +28,10 @@
     */
     error_reporting(0);
     // Setting variables to connect to database
-    $servername = "localhost:3307";
-    $dbuser = "root";
-    $dbpwd = "";
-    $dbname = "assignment2";
+    $servername = "us-cdbr-east-06.cleardb.net:3306";
+    $dbuser = "bb5962174cbcc2";
+    $dbpwd = "28c59a87";
+    $dbname = "users";
     // Connection to database
     $conn = mysqli_connect($servername, $dbuser, $dbpwd, $dbname);
     if (mysqli_connect_errno()) {
