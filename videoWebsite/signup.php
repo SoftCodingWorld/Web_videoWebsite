@@ -28,10 +28,10 @@
     */
     error_reporting(0);
     // Setting variables to connect to database
-    $servername = "us-cdbr-east-06.cleardb.net:3306";
+    $servername = "us-cdbr-east-06.cleardb.net";
     $dbuser = "bb5962174cbcc2";
     $dbpwd = "28c59a87";
-    $dbname = "users";
+    $dbname = "heroku_5cb247bd7004088";
     // Connection to database
     $conn = mysqli_connect($servername, $dbuser, $dbpwd, $dbname);
     if (mysqli_connect_errno()) {
